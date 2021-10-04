@@ -1,0 +1,44 @@
+@media  (max-width: 375px) {
+    .card{
+        flex-direction: column;
+        max-width: 88%;
+        border-radius: 0 0 1rem 1rem;
+    }
+    .text-part{
+        text-align: center;
+        order: 2;
+    }
+    .card .text-part h1 {
+        font-size: 2.5rem;
+    }
+    .card .text-part p{
+        font-size: 16px;
+    }
+    .stat{
+        flex-direction: column;
+        margin: 48px 0 10px 0;
+    }
+    .stat .stat-block{
+        margin-bottom: 30px;
+    }
+    .stat div:last-of-type{
+        margin-bottom: 0px;
+        
+    }
+    .image-part{
+        order: 1;
+        border-radius: 1rem 1rem 0 0;
+    }
+    .image-part .img-des{
+        display: none;
+    }
+    .image-part .img-mob{
+        display: block;
+        width: 100%;
+        
+    }
+    .image-part .over{
+        width: 100%;
+        border-radius: 1rem 1rem 0 0;
+    }
+}
